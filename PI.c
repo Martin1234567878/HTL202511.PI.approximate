@@ -13,7 +13,7 @@ int main() {
         pi_approx = (n * s) / 2.0;
         printf("n = %d -> pi ≈ %.15f\n", n, pi_approx);
 
-        // Neue Seitenlänge bei Verdopplung der Seitenzahl (Archimedische Rekursion)
+        // Neue Seitenlänge bei Verdop plung der Seitenzahl (Archimedische Rekursion)
         s = sqrt(2 - sqrt(4 - s * s));
 
         n *= 2;  // Seiten verdoppeln
