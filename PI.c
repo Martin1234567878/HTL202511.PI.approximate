@@ -1,4 +1,4 @@
-﻿#include <stdio.h>
+#include <stdio.h>
 #include <math.h>
 
 int main() {
@@ -21,3 +21,4 @@ int main() {
 
     return 0;
 }
+//cl PI.c   .\PI    zum überprüfen ob der Code funktioniert (im Terminal)
